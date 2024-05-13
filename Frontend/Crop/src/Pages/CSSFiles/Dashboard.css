@@ -1,1 +1,35 @@
 
+.PlantVitals
+{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 100px;
+}
+
+.TopV{
+    width:88%;
+    height:20vh;
+    display: flex;
+    background-color: aqua;
+    flex-wrap: wrap;
+
+}
+
+.TopLeft{
+    
+}
+
+.Moisture{
+    background-color: blue;
+    width: 40%;
+    height:80%;
+}
+
+.MiddleV{
+    width:88%;
+    background-color: bisque;
+    height:20vh;
+
+}
