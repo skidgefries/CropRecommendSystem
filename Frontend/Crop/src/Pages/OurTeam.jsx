@@ -5,16 +5,19 @@ export default function OurTeam() {
   return (
     <>
       <div className="DiseaseDetection">
-        <div className="TopDDV">
-          <div className="DDLeft">
-            <p>Disease Detection</p>
-            <img
-              className="tree_image"
-              src="../src/assets/_a0ecfb5a-f636-4467-87de-db3910d14b5e 1.svg"
-            ></img>
+        <div className="PDD">
+          <div className="PDDLeft">
+            <div className="Heading1">
+              <p>Plant Disease Detection</p>
+            </div>
+            <div className="im">
+              <img className="DDLeftimg" src="../src/assets/hp.png"></img>
+              <img className="DDLeftimg" src="../src/assets/i.jpg"></img>
+            </div>
           </div>
 
-          <div className="Line"></div>
+          <div className="line"></div>
+
           <div className="Description">
             <p>
               Harnessing the power of Convolution Neural Networks (CNN) to
@@ -25,7 +28,7 @@ export default function OurTeam() {
         </div>
 
         <div className="Ourteam">
-          <div className="Heading">
+          <div className="Heading2">
             <p>Our Team</p>
           </div>
 
@@ -59,9 +62,7 @@ export default function OurTeam() {
               </div>
             </div>
 
-            <div className="line">
-
-            </div>
+            <div className="line"></div>
 
             <div className="Body">
               <div className="Intro">
@@ -85,7 +86,8 @@ export default function OurTeam() {
                 <div className="RIntroD">
                   <h1>Anusha Rajlawat</h1>
                   <p>
-                    Hey I am Anusha I am the developer and researcher in this project
+                    Hey I am Anusha I am the developer and researcher in this
+                    project
                   </p>
                 </div>
               </div>
