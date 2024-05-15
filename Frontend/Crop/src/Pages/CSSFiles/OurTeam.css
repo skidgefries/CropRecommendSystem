@@ -116,12 +116,115 @@
     background-color: aliceblue;
 }
 
-.OurTeam p{
-    font-size: 2rem;
-    font-weight: bold;
-    background: -webkit-linear-gradient(#FFFFFF, #80ACBA);
+.Ourteam {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: -webkit-linear-gradient(#ffffff, #80ACBA);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   
 }
 
+.Heading p{
+    font-size: 64px;
+    font-weight: bold;
+    text-align: center;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.MBody {
+    backface-visibility: hidden;
+    display: flex;
+    flex-direction: row;
+    gap:3rem;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    width: 90%;
+}
+
+
+.Body {
+    display: flex;
+    flex-direction: column;
+    gap:3rem;
+    align-items: center;
+    border-radius: 30px;
+    width: 90%;
+}
+
+.Intro {
+    display: flex;
+    flex-direction: row;
+    gap:3rem;
+    align-items: center;
+    border-radius: 30px;
+    width: 90%;
+}
+
+.IntroD {
+    display: flex;
+    flex-direction: row;
+    gap:3rem;
+    align-items: center;
+    border-radius: 30px;
+    width: 80%;
+}
+
+.LIntroD p{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: right;
+    background-color: #FFFFFF;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.LIntroD h1{
+    font-size: 26px;
+    font-weight: bold;
+    text-align: right;
+    background-color: #FFFFFF;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.RIntroD p{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+    background-color: #FFFFFF;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.RIntroD h1{
+    font-size: 26px;
+    font-weight: bold;
+    text-align: left;
+    background-color: #FFFFFF;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.IntroP {
+    align-items: center;
+    border-radius: 30px;
+    width: 20%;
+}
+
+.profile {
+    width: 100px;
+    height: 150px;
+    justify-content: center;
+    
+}
+
+.line{
+    width: 11px;
+    height: 340px;
+    background-color: #FFFFFF;
+}
