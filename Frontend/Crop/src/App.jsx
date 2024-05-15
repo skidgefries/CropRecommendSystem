@@ -8,17 +8,19 @@ import Navbar from "./Components/Navbar.jsx"
 
 
 
+
 export default function Homepage()
 {
   return(
   <>
   {/* Yaha Jun MA Aafule Kam Garexa Tyo Wala Component matra rakha aru comment gara below */}
     
-    <Navbar/>
+    {/* <Navbar/>
     <FirstPage/>
-    <OurServices/>
+    <OurServices/> */}
+    <OurTeam/>
     <Dashboard/>
-    <DiseaseDetection/>
+    {/* <DiseaseDetection/> */}
     
   </>
   );
