@@ -30,7 +30,7 @@
     gap:3rem;
     align-items: center;
     border-radius: 30px;
-    width: 155%;
+    width: 45%;
 }
 
 .Heading1 p{
@@ -48,15 +48,21 @@
     justify-content: center;   
     display: flex;
     flex-direction: row;
-    width: 154ox;
+   
     height: 154px;
     justify-content: center;
 }
 
 .DDLeftimg{
-    width: 154ox;
+    width: 154px;
     height: 154px;
     justify-content: center;
+}
+
+.description{
+    width: 100%;
+    z-index: -1;
+    align-items: center;
 }
 
 .Description p{
@@ -67,10 +73,7 @@
     background-color: #FFFFFF;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    align-items: center;
-    width: 90%;
     
-
 }
 
 .Ourteam {
@@ -112,7 +115,7 @@
     gap:3rem;
     align-items: center;
     border-radius: 30px;
-    width: 90%;
+    width: 50%;
 }
 
 .Intro {
@@ -186,4 +189,5 @@
     width: 11px;
     height: 340px;
     background-color: #D9D9D9;
+    z-index: 1;
 }
